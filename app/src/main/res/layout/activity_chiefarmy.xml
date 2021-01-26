@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chiefarmy">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:gravity="center"
+                android:text="List of Chief of Army Staff"
+                android:textColor="#FFF"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                >
+
+            </TextView>
+        </LinearLayout>
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon1"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon1"
+                            app:layout_constraintTop_toTopOf="@id/imageicon1"
+                            android:text="General M A G Osmany, psc"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Period: 12/Apr/1971   To   06/Apr/1972"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem1"
+                            app:layout_constraintStart_toStartOf="@id/textItem1"
+                            app:layout_constraintTop_toBottomOf="@id/textItem1"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon2"
+                            app:layout_constraintTop_toTopOf="@id/imageicon2"
+                            android:text="Major General K M Shafiullah, BU, psc"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Period: 07/Apr/1972   To   24/Aug/1975"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem2"
+                            app:layout_constraintStart_toStartOf="@id/textItem2"
+                            app:layout_constraintTop_toBottomOf="@id/textItem2"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon3"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon3"
+                            app:layout_constraintTop_toTopOf="@id/imageicon3"
+                            android:text="Lieutenant General Ziaur Rahman, BU, psc"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Period: 25/Aug/1975   To   28/Apr/1978"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem3"
+                            app:layout_constraintStart_toStartOf="@id/textItem3"
+                            app:layout_constraintTop_toBottomOf="@id/textItem3"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon4"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon4"
+                            app:layout_constraintTop_toTopOf="@id/imageicon4"
+                            android:text="Lieutenant General H M Ershad, ndc, psc"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Period: 29/Apr/1978   To   30/Aug/1986"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem4"
+                            app:layout_constraintStart_toStartOf="@id/textItem4"
+                            app:layout_constraintTop_toBottomOf="@id/textItem4"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon5"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon5"
+                            app:layout_constraintTop_toTopOf="@id/imageicon5"
+                            android:text="Lieutenant General M Atiqur Rahman, G+"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Period: 31/Aug/1986   To   30/Aug/1990"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem5"
+                            app:layout_constraintStart_toStartOf="@id/textItem5"
+                            app:layout_constraintTop_toBottomOf="@id/textItem5"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon6"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon6"
+                            app:layout_constraintTop_toTopOf="@id/imageicon6"
+                            android:text="Lieutenant General M Nuruddin Khan, psc"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Period: 31/Aug/1990   To   30/Aug/1994"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem6"
+                            app:layout_constraintStart_toStartOf="@id/textItem6"
+                            app:layout_constraintTop_toBottomOf="@id/textItem6"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon7"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon7"
+                            app:layout_constraintTop_toTopOf="@id/imageicon7"
+                            android:text="Lieutenant General Abu Saleh Mohammad Nasim, BB, psc"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Period: 31/Aug/1994   To   19/May/1996"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem7"
+                            app:layout_constraintStart_toStartOf="@id/textItem7"
+                            app:layout_constraintTop_toBottomOf="@id/textItem7"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon8"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem8"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon8"
+                            app:layout_constraintTop_toTopOf="@id/imageicon8"
+                            android:text="Lieutenant General Muhammad Mahbubur Rahman, psc"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Period: 20/May/1996   To   23/Dec/1997"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem8"
+                            app:layout_constraintStart_toStartOf="@id/textItem8"
+                            app:layout_constraintTop_toBottomOf="@id/textItem8"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon9"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem9"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon9"
+                            app:layout_constraintTop_toTopOf="@id/imageicon9"
+                            android:text="Lieutenant General M Mustafizur Rahman, BB, ndc, psc, C"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Period: 24/Dec/1997   To   23/Dec/2000"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem9"
+                            app:layout_constraintStart_toStartOf="@id/textItem9"
+                            app:layout_constraintTop_toBottomOf="@id/textItem9"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon10"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem10"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon10"
+                            app:layout_constraintTop_toTopOf="@id/imageicon10"
+                            android:text="Lieutenant General M Harun-Ar-Rashid, BP, rcds, psc"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Period: 24/Dec/2000   To   15/Jun/2002"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem10"
+                            app:layout_constraintStart_toStartOf="@id/textItem10"
+                            app:layout_constraintTop_toBottomOf="@id/textItem10"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon11"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem11"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon11"
+                            app:layout_constraintTop_toTopOf="@id/imageicon11"
+                            android:text="Lieutenant General Hasan Mashhud Chowdhury, awc, psc"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Period: 16/Jun/2002   To   15/Jun/2005"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem11"
+                            app:layout_constraintStart_toStartOf="@id/textItem11"
+                            app:layout_constraintTop_toBottomOf="@id/textItem11"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon12"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem12"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon12"
+                            app:layout_constraintTop_toTopOf="@id/imageicon12"
+                            android:text="General Moeen U Ahmed, ndc, psc"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Period: 16/Jun/2005   To   15/Jun/2009"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem12"
+                            app:layout_constraintStart_toStartOf="@id/textItem12"
+                            app:layout_constraintTop_toBottomOf="@id/textItem12"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon13"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem13"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon13"
+                            app:layout_constraintTop_toTopOf="@id/imageicon13"
+                            android:text="General Md Abdul Mubeen, ndc, psc"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Period: 16/Jun/2009   To   25/Jun/2012"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem13"
+                            app:layout_constraintStart_toStartOf="@id/textItem13"
+                            app:layout_constraintTop_toBottomOf="@id/textItem13"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon14"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem14"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon14"
+                            app:layout_constraintTop_toTopOf="@id/imageicon14"
+                            android:text="General Iqbal Karim Bhuiyan,SBP, psc"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Period: 26/Jun/2012   To   25/Jun/2015"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem14"
+                            app:layout_constraintStart_toStartOf="@id/textItem14"
+                            app:layout_constraintTop_toBottomOf="@id/textItem14"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon15"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem15"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon15"
+                            app:layout_constraintTop_toTopOf="@id/imageicon15"
+                            android:text="General Abu Belal Muhammad Shafiul Huq,ndc,psc"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Period: 26/Jun/2015   To   25/Jun/2018"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem15"
+                            app:layout_constraintStart_toStartOf="@id/textItem15"
+                            app:layout_constraintTop_toBottomOf="@id/textItem15"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon16"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem16"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon16"
+                            app:layout_constraintTop_toTopOf="@id/imageicon16"
+                            android:text="General Aziz Ahmed, SBP, BSP, BGBM, PBGM, BGBMS, psc, G"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Period: 25/Jun/2018   To   Present"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem16"
+                            app:layout_constraintStart_toStartOf="@id/textItem16"
+                            app:layout_constraintTop_toBottomOf="@id/textItem16"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

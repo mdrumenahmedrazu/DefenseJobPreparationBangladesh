@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "636696953911",
+    "firebase_url": "https://defensejobpreparation.firebaseio.com",
+    "project_id": "defensejobpreparation",
+    "storage_bucket": "defensejobpreparation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636696953911:android:c8bf12ede770e12c3d2bb2",
+        "android_client_info": {
+          "package_name": "com.rumenahmedrazu.defensejobpreparationbangladesh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636696953911-mqc5nle31v9rucblu6blt7kjkgrlq7rm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rumenahmedrazu.defensejobpreparationbangladesh",
+            "certificate_hash": "981d3ff86eeed48a4a7d2111b795a5c195ffc7e6"
+          }
+        },
+        {
+          "client_id": "636696953911-06sbucsgk4pq821gkh37h2i5p7ruq8nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX5zba2FjF2aoY7yVqUMUwiuk696fsziM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636696953911-06sbucsgk4pq821gkh37h2i5p7ruq8nh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
